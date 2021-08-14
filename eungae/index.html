@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+<!-- <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Nanum+Myeongjo&display=swap&subset=korean" rel="stylesheet"> -->
+
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/bs_navbar.css">
+    <link rel="stylesheet" href="css/layout.css">
+
+
+    <link rel="stylesheet" href="css/char.css">
+    <link rel="stylesheet" href="css/para.css">
+
+    <!-- <link rel="stylesheet" href="css/others.css"> -->
+        
+    <style> 
+
+        @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Nanum+Myeongjo&display=swap&subset=korean');
+
+    </style>
+
+
+
+
+    <style> 
+    
+    * { font-family: 'Nanum Gothic', sans-serif; }
+
+
+    /* .navbar  {
+        background-color: rgb(196, 196, 196);
+    }
+    
+    .navbar-nav, .nav-link, .dropdown-item {
+        background-color: rgb(196, 196, 196);
+    } */
+
+    .contents_list a {
+        display:block;
+        color:darkgoldenrod;
+    }
+
+    .fcol_c{
+        /* max-width: 100%; */
+    }
+
+    .div_body{
+        /* max-width: 100%; */
+    }
+
+
+    .div_body .aw_bas{
+        max-width: 100%;
+        /* width: 100%; */
+        max-height: 100%;
+        object-fit: contain;
+        
+        
+        margin-top: 1.5em;
+        margin-bottom: 1em;
+    }
+    
+    .t_basic, .fcol_r p {font-family: 'Nanum Myeongjo', serif;}
+    
+    .video_wrapper {position: relative; padding-bottom: 56.25%; /* 16:9 */  padding-top: 25px;}
+    .video_wrapper iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+        
+
+
+    
+    </style>
+
+</head>
+
+<body>
+	<!-- ============================================================================== -->
+
+	<header id="main_header">
+		<h1 class="book_title text_shadow_title ">응 애</h1>
+		<p class="book_desc">생명의 태초에 울려 퍼지는 소리</p>
+	</header>
+
+	<!-- ============================================================================== -->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light px-3 " id="main_navbar">
+
+        <a class=" text_shadow_title " href="#">라무</a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="navbar-collapse collapse" id="navbarNav">
+            <div class="navbar-nav me-auto ">
+                
+                <a href="#" class="nav-item nav-link active">홈</a>
+    
+                <div class="nav-item dropdown">
+                    <!-- <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"> Dropdown </a> -->
+                    <a class="nav-link dropdown-toggle" href="#">온라인서적들</a>
+                    <div class="dropdown-menu" >
+
+                        <a class="dropdown-item" href="#">아메리카 대조선</a>
+                        <a class="dropdown-item" href="#">반 고흐 </a>
+                        <div class="nav-item dropdown">
+                            <a class="dropdown-item dropdown-toggle" href="#">응애</a>
+                            <div class="dropdown-menu">
+                                <div class="nav-item dropdown">
+                                    <a class="dropdown-item dropdown-toggle" href="#">1장</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">1장 1절</a>
+                                        <a class="dropdown-item" href="#">1장 2절</a>
+                                        <a class="dropdown-item" href="#">1장 3절</a>
+                                        <a class="dropdown-item" href="#">1장 4절</a>
+                                    </div>
+                                </div>
+                                <div class="nav-item dropdown">
+                                    <a class="dropdown-item dropdown-toggle" href="#">2장</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">2장 1절</a>
+                                        <a class="dropdown-item" href="#">2장 2절</a>
+                                        <a class="dropdown-item" href="#">2장 3절</a>
+                                        <a class="dropdown-item" href="#">2장 4절</a>
+                                    </div>
+                                </div>
+                                <div class="nav-item dropdown">
+                                    <a class="dropdown-item dropdown-toggle" href="#">3장</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">3장 1절</a>
+                                        <a class="dropdown-item" href="#">3장 2절</a>
+                                        <a class="dropdown-item" href="#">3장 3절</a>
+                                        <a class="dropdown-item" href="#">3장 4절</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="dropdown-item " href="#">상고사</a>
+                        <a class="dropdown-item " href="#">세력들</a>
+                        <a class="dropdown-item " href="#">어린이 관련</a>
+                    </div>
+                </div>
+                
+                <a href="#" class="nav-item nav-link">주문하기</a>
+
+                <a href="#" class="nav-item nav-link">연락처</a>
+                <a href="#" class="nav-item nav-link">게시판</a>
+    
+            </div>
+    
+            <!-- <form class="d-flex navbar-nav ml-auto"> -->
+            <form class="navbar-nav ml-auto">
+                <input class="form-control me-2" type="search" placeholder="검색" aria-label="Search" style="">
+                <button class="btn btn-outline-success" style="width:5em; magrin-left:2em;" type="submit">검색</button>
+            </form>
+        </div>
+    
+    </nav>
+	<!-- ============================================================================== -->
+<a href=""></a>
+    <!-- ============================================================================== -->
+
+    <dev class="fcont">
+        <div class="fcol_l">
+            
+            <p>&nbsp;</p>
+            <!-- <audio id="au_01"> <source src="audio/eungae_02.mp3" type="audio/mpeg"></audio> -->
+
+
+            <audio id="au_01" src="audio/eungae_02.mp3" type="audio/mpeg"></audio>
+            <div>
+                <p onclick="document.getElementById('au_01').play()"><i style="color:grey" class="fas fa-volume-up fa-2x"></i> &nbsp; 응애 소리</p>
+            </div>
+
+            <p onclick="document.getElementById('au_01').play()"><i style="color:#FF9E00" class="fas fa-play-circle fa-2x"></i></p>
+
+            <p>&nbsp;</p>
+
+            <h4 class="text_shadow_title">목차</h4> <br>
+            <div class="contents_list"  style="margin-left:10pt">
+                <a href="part_01/chap01/index.html">1장-1절</a>
+                <a href="part_01/chap02/index.html">1장-2절</a>
+                <a href="part_01/chap03/index.html">1장-3절</a>
+                <a href="part_01/chap04/index.html">1장-4절</a>
+                <a href="part_01/chap05/index.html">1장-5절</a>
+                <a href="part_02/chap01/index.html">2장-1절</a>
+                <a href="part_02/chap02/index.html">2장-2절</a>
+                <a href="part_02/chap03/index.html">2장-3절</a>
+                <a href="part_02/chap04/index.html">2장-4절</a>
+                <a href="part_02/chap05/index.html">2장-5절</a>
+                <a href="part_03/chap01/index.html">3장-1절</a>
+                <a href="part_03/chap02/index.html">3장-2절</a>
+                <a href="part_03/chap03/index.html">3장-3절</a>
+                <a href="part_03/chap04/index.html">3장-4절</a>
+                <a href="part_03/chap05/index.html">3장-5절</a>
+                <a href="part_04/chap01/index.html">4장-1절</a>
+                <a href="part_04/chap02/index.html">4장-2절</a>
+                <a href="part_04/chap03/index.html">4장-3절</a>
+                <a href="part_04/chap04/index.html">4장-4절</a>
+                <a href="part_04/chap05/index.html">4장-5절</a>
+                <a href="part_05/chap01/index.html">5장-1절</a>
+                <a href="part_05/chap02/index.html">5장-2절</a>
+                <a href="part_05/chap03/index.html">5장-3절</a>
+                <a href="part_05/chap04/index.html">5장-4절</a>
+                <a href="part_05/chap05/index.html">5장-5절</a>
+                <a href="part_06/chap01/index.html">6장-1절</a>
+                <a href="part_06/chap02/index.html">6장-2절</a>
+                <a href="part_06/chap03/index.html">6장-3절</a>
+                <a href="part_06/chap04/index.html">6장-4절</a>
+                <a href="part_06/chap05/index.html">6장-5절</a>
+                <a href="part_07/chap01/index.html">7장-1절</a>
+                <a href="part_07/chap02/index.html">7장-2절</a>
+                <a href="part_07/chap03/index.html">7장-3절</a>
+                <a href="part_07/chap04/index.html">7장-4절</a>
+                <a href="part_07/chap05/index.html">7장-5절</a>
+            </div>
+        </div>
+        <div class="fcol_c">
+            
+            <div class="div_body">
+                <h4 class="title_3">1장:1절 응애, 그리고 응애...</h4>
+                <img class="aw_bas" src="image/_001-art-king bird-2.jpg" />
+                <p class="t_basic">하나님(천자:황제)의 주관심사는 서민의 행복인데, 내부內府관리와 세도가들이 결탁하여 황제에게 반역을 했다. 
+                이 책 2장에 등장하는 쌤, 마오, 스탈 등 패거리들은 살아있는 황제의 상징(十)을 죽은 자의 하나님으로 만들어 엉터리 종교와 공산주의를 세상에 퍼뜨렸다. 황제가 잠적하여 미래인류행복을 위해 과학과 예술의 시대를 준비하는 동안, 패권주의를 지향하는 비밀조직의 빅브라더는 ‘글로벌리스트’를 사칭하며 서민의 행복을 강탈했다. </p><br><br>
+
+                <img class="aw_bas" src="image/025-로봇.jpg" ></img>
+                <p class="t_basic">하나님(천자:황제)의 주관심사는 서민의 행복인데, 내부內府관리와 세도가들이 결탁하여 황제에게 반역을 했다. 
+                이 책 2장에 등장하는 쌤, 마오, 스탈 등 패거리들은 살아있는 황제의 상징(十)을 죽은 자의 하나님으로 만들어 엉터리 종교와 공산주의를 세상에 퍼뜨렸다. 황제가 잠적하여 미래인류행복을 위해 과학과 예술의 시대를 준비하는 동안, 패권주의를 지향하는 비밀조직의 빅브라더는 ‘글로벌리스트’를 사칭하며 서민의 행복을 강탈했다. </p><br><br>
+
+                <img class="aw_bas" src="image/2021-01-05 2-24-08 AM.jpg" ></img>
+                <p class="t_basic">하나님(천자:황제)의 주관심사는 서민의 행복인데, 내부內府관리와 세도가들이 결탁하여 황제에게 반역을 했다. 
+                이 책 2장에 등장하는 쌤, 마오, 스탈 등 패거리들은 살아있는 황제의 상징(十)을 죽은 자의 하나님으로 만들어 엉터리 종교와 공산주의를 세상에 퍼뜨렸다. 황제가 잠적하여 미래인류행복을 위해 과학과 예술의 시대를 준비하는 동안, 패권주의를 지향하는 비밀조직의 빅브라더는 ‘글로벌리스트’를 사칭하며 서민의 행복을 강탈했다. </p><br><br>
+
+                <img class="aw_bas" src="image/015캐릭터-뽀미울음.jpg" ></img>
+                <p class="t_basic">하나님(천자:황제)의 주관심사는 서민의 행복인데, 내부內府관리와 세도가들이 결탁하여 황제에게 반역을 했다. 
+                이 책 2장에 등장하는 쌤, 마오, 스탈 등 패거리들은 살아있는 황제의 상징(十)을 죽은 자의 하나님으로 만들어 엉터리 종교와 공산주의를 세상에 퍼뜨렸다. 황제가 잠적하여 미래인류행복을 위해 과학과 예술의 시대를 준비하는 동안, 패권주의를 지향하는 비밀조직의 빅브라더는 ‘글로벌리스트’를 사칭하며 서민의 행복을 강탈했다. </p><br><br>
+
+                <img class="aw_bas" src="image/_007-xormr.jpg" ></img>
+                <p class="t_basic">하나님(천자:황제)의 주관심사는 서민의 행복인데, 내부內府관리와 세도가들이 결탁하여 황제에게 반역을 했다. 
+                이 책 2장에 등장하는 쌤, 마오, 스탈 등 패거리들은 살아있는 황제의 상징(十)을 죽은 자의 하나님으로 만들어 엉터리 종교와 공산주의를 세상에 퍼뜨렸다. 황제가 잠적하여 미래인류행복을 위해 과학과 예술의 시대를 준비하는 동안, 패권주의를 지향하는 비밀조직의 빅브라더는 ‘글로벌리스트’를 사칭하며 서민의 행복을 강탈했다. </p><br><br>
+
+                <img class="aw_bas" src="image/_001-청사초롱.jpg" ></img>
+                <p class="t_basic">하나님(천자:황제)의 주관심사는 서민의 행복인데, 내부內府관리와 세도가들이 결탁하여 황제에게 반역을 했다. 
+                이 책 2장에 등장하는 쌤, 마오, 스탈 등 패거리들은 살아있는 황제의 상징(十)을 죽은 자의 하나님으로 만들어 엉터리 종교와 공산주의를 세상에 퍼뜨렸다. 황제가 잠적하여 미래인류행복을 위해 과학과 예술의 시대를 준비하는 동안, 패권주의를 지향하는 비밀조직의 빅브라더는 ‘글로벌리스트’를 사칭하며 서민의 행복을 강탈했다. </p><br><br>
+
+                <img class="aw_bas" src="image/_001-물리태극.jpg" ></img>
+                <p class="t_basic">하나님(천자:황제)의 주관심사는 서민의 행복인데, 내부內府관리와 세도가들이 결탁하여 황제에게 반역을 했다. 
+                이 책 2장에 등장하는 쌤, 마오, 스탈 등 패거리들은 살아있는 황제의 상징(十)을 죽은 자의 하나님으로 만들어 엉터리 종교와 공산주의를 세상에 퍼뜨렸다. 황제가 잠적하여 미래인류행복을 위해 과학과 예술의 시대를 준비하는 동안, 패권주의를 지향하는 비밀조직의 빅브라더는 ‘글로벌리스트’를 사칭하며 서민의 행복을 강탈했다. </p><br><br>
+
+                <img class="aw_bas" src="image/_001-coffe.jpg" ></img>
+                <p class="t_basic">하나님(천자:황제)의 주관심사는 서민의 행복인데, 내부內府관리와 세도가들이 결탁하여 황제에게 반역을 했다. 
+                이 책 2장에 등장하는 쌤, 마오, 스탈 등 패거리들은 살아있는 황제의 상징(十)을 죽은 자의 하나님으로 만들어 엉터리 종교와 공산주의를 세상에 퍼뜨렸다. 황제가 잠적하여 미래인류행복을 위해 과학과 예술의 시대를 준비하는 동안, 패권주의를 지향하는 비밀조직의 빅브라더는 ‘글로벌리스트’를 사칭하며 서민의 행복을 강탈했다. </p><br><br>
+
+                <img class="aw_bas" src="image/_001-진공.jpg" ></img>
+                <p class="t_basic">하나님(천자:황제)의 주관심사는 서민의 행복인데, 내부內府관리와 세도가들이 결탁하여 황제에게 반역을 했다. 
+                이 책 2장에 등장하는 쌤, 마오, 스탈 등 패거리들은 살아있는 황제의 상징(十)을 죽은 자의 하나님으로 만들어 엉터리 종교와 공산주의를 세상에 퍼뜨렸다. 황제가 잠적하여 미래인류행복을 위해 과학과 예술의 시대를 준비하는 동안, 패권주의를 지향하는 비밀조직의 빅브라더는 ‘글로벌리스트’를 사칭하며 서민의 행복을 강탈했다. </p><br><br>
+                
+            </div>
+
+
+<div class="video_wrapper">
+<iframe width="866" height="487" src="https://www.youtube.com/embed/1OTimjtgXEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p>&nbsp;</p>
+
+<div class="video_wrapper">
+<iframe width="866" height="487" src="https://www.youtube.com/embed/Ws6iIoxsnwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p>&nbsp;</p>
+
+<div class="video_wrapper">
+<iframe width="866" height="487" src="https://www.youtube.com/embed/0L89bH7Owhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p>&nbsp;</p>
+
+        </div>
+        
+        <!-- ===== col_r -->
+        <div class="fcol_r">
+            <hr />
+            <h5>왜 “응애”인가?</h5>
+            <hr />
+            <p>“응애”는 내안의 하나님(천자:황제)과 1:1 대응관계이다.</p>
+            <p>“응애”는 내가 탄생하는 울음소리이다. 
+                내가 태어나면서 비로소 역사가 시작되는 것이다. 역사는 내안의 하나님과의 1:1 대응관계이다. 
+                하나님(천자:황제)의 존재여부는 나의 영성(Sprit)의 존재유무와 연결된다. 
+            </p>
+            <hr />
+            <h5>하나님(천자:황제)의 ‘엑스칼리버’</h5>
+            <hr />
+            <p>“응애”는 내안의 하나님(천자:황제)과 1:1 대응관계이다.</p>
+            <p>하나님(천자:황제)의 주관심사는 서민의 행복인데, 내부內府관리와 세도가들이 결탁하여 황제에게 반역을 했다. 
+                이 책 2장에 등장하는 쌤, 마오, 스탈 등 패거리들은 살아있는 황제의 상징(十)을 죽은 자의 하나님으로 만들어 엉터리 종교와 공산주의를 세상에 퍼뜨렸다. 황제가 잠적하여 미래인류행복을 위해 과학과 예술의 시대를 준비하는 동안, 패권주의를 지향하는 비밀조직의 빅브라더는 ‘글로벌리스트’를 사칭하며 서민의 행복을 강탈했다. 
+            </p>
+            <hr />
+            <h5>하나님은 영생원자 안에 나와 함께 존재했다. </h5>
+            <hr />
+            <p>최근 세계사를 날조하고, 살아있는 하나님(十)을 죽은 자의 하나님(♀)으로 만들었던 ‘글로벌리스트’가 지구촌 곳곳에서 무너져 내렸다. 
+            </p>
+
+            <hr />
+            <h5>내 몸에 존재하는 무량계수의 원자운동</h5>
+            <hr />
+            <p>저자는 우주탄생 빅뱅을 인간배란 시에 영생원자가 우리 몸에 빛보다 빠르게 발생한다는 원리에 비유한다.
+                즉 죽음으로 전자를 잃은 인간영생원자핵이 새로운 전자를 받아 다시 태어나려면, 우주탄생의 중성자블랙홀의 빅뱅처럼 초고속의 찰라 운동에너지가 존재해야한다. 
+                이와 같이 새로운 생명체의 윤회프로세스를 뽀미라는 복제인간을 통해 증명하고 있다.                
+            </p>
+
+            <hr />
+            <h5>‘영생원자의 소우주’ (중성자블랙홀)</h5>
+            <hr />
+            <p>“응애”는 내안의 하나님(천자:황제)과 1:1 대응관계이다.</p>
+            <p>마치 원자핵에서 미자폭풍이 끝나고 제2차 “빅뱅”으로 새로운 생명이 태어나듯이, 하나님의 영이 머무는 ‘중성자 소우주’의 비밀이 풀리며 영생원자의 최초의 진동이 하나님의 말씀이었다는 것을 알게 되었다. 
+            </p>
+
+        </div>
+    </dev>
+    
+    
+	<!-- ============================================================================== -->
+
+	<div>
+		<hr />
+		<p class="footer_title">Wooyunee ::: Copyright (C) 2021. All rights reserved.</p>
+		<p class="footer_desc">Copyright (C) 2021. All rights reserved.</p>
+		
+    </div>
+	<!-- ============================================================================== -->
+
+	<script type="text/javascript" src="js/layout.js"></script>
+    
+    
+	<script type="text/javascript" src="js/bs_navbar.js"></script>
+    
+	<script type="text/javascript">
+		new bs_navbar();
+	</script>
+
+
+</body>
+
+</html>
