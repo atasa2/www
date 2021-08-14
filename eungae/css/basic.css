@@ -1,0 +1,265 @@
+
+
+
+/* ---------------------------------------- */ 
+/* ---------------------------------------- */ 
+/* ------  Respond              ----------- */ 
+/* ---------------------------------------- */ 
+/* ---------------------------------------- */ 
+/* =============================================================*/
+
+/* =============================================================*/
+:root {
+  /*--ratio_v   :calc(489/332);*/     /* Osho Zne Tarot */
+  /*--ratio_v   :calc(1287/874);*/    /* Osho Zne Tarot */
+  
+  /*--ratio_v   :calc(497/332);*/     /* Osho Transformation Tarot */ 
+  
+  /*--ratio_v   :calc(1976/1200);*/   /* Unversal Tarot */ 
+
+
+  /*--tc_w_base :42vw;  --tc_h_base :85vw;*/
+  --tcfz      :3.3vw;
+  
+  --tca1_w:42vw;  --tca2_w:28vw;  --tcb_w:85vw;
+  --tca1_r :calc(42/42 * 4.0/4.0);  --tca_1_mbr :calc(42/42 * 4.0/4.0*0.5);
+  --tca2_r :calc(42/42 * 2.5/4.0);  --tca_2_mbr :calc(42/42 * 2.5/4.0*0.5);
+  --tcb_r  :calc(85/85 * 7.4/4.0);  --tcb_mbr   :calc(85/85 * 7.4/4.0*0.5);
+}
+
+
+.tca1_zr  {width:var(--tca1_w); height:calc(var(--tca1_w)*var(--ratio_v)); }
+.tca2_zr  {width:var(--tca2_w); height:calc(var(--tca2_w)*var(--ratio_v)); }
+.tcb_zr   {width:var(--tcb_w);  height:calc(var(--tcb_w) *var(--ratio_v)); }
+
+.tca1_fzr {font-size:calc(var(--tcfz)*var(--tca1_r)); bottom:calc(var(--tcfz)*var(--tca_1_mbr));}
+.tca2_fzr {font-size:calc(var(--tcfz)*var(--tca2_r)); bottom:calc(var(--tcfz)*var(--tca_2_mbr));}
+.tcb_fzr  {font-size:calc(var(--tcfz)*var(--tcb_r )); bottom:calc(var(--tcfz)*var(--tcb_mbr  ));}
+
+
+
+
+@media screen and (min-width: 577px) {
+/* ---------------------------------------- */ 
+:root {
+  --tca1_w:30vw;  --tca2_w:20vw;  --tcb_w:70vw;
+  --tca1_r :calc(30/42 * 4.0/4.0);  --tca_1_mbr :calc(30/42 * 4.0/4.0/2);
+  --tca2_r :calc(30/42 * 2.5/4.0);  --tca_2_mbr :calc(30/42 * 2.5/4.0/2);
+  --tcb_r  :calc(70/85 * 7.4/4.0);  --tcb_mbr   :calc(70/85 * 7.4/4.0/2);
+}
+/* ---------------------------------------- */ 
+}
+
+@media screen and (min-width: 769px) {
+/* ---------------------------------------- */ 
+:root {
+  --tca1_w:25vw;  --tca2_w:16vw;  --tcb_w:50vw;
+  --tca1_r :calc(25/42 * 4.0/4.0);  --tca_1_mbr :calc(25/42 * 4.0/4.0/2);
+  --tca2_r :calc(25/42 * 2.5/4.0);  --tca_2_mbr :calc(25/42 * 2.5/4.0/2);
+  --tcb_r  :calc(50/85 * 7.4/4.0);  --tcb_mbr   :calc(50/85 * 7.4/4.0/2);
+}
+/* ---------------------------------------- */ 
+}
+
+@media screen and (min-width: 993px) { 
+/* ---------------------------------------- */ 
+:root {
+  --tca1_w:20vw;  --tca2_w:12vw;  --tcb_w:40vw;
+  --tca1_r :calc(20/42 * 4.0/4.0);  --tca_1_mbr :calc(20/42 * 4.0/4.0/2);
+  --tca2_r :calc(20/42 * 2.5/4.0);  --tca_2_mbr :calc(20/42 * 2.5/4.0/2);
+  --tcb_r  :calc(40/85 * 7.4/4.0);  --tcb_mbr   :calc(40/85 * 7.4/4.0/2);
+}
+/* ---------------------------------------- */ 
+}
+
+@media screen and (min-width: 1201px) { 
+/* ---------------------------------------- */ 
+:root {
+  --tca1_w:20vw;  --tca2_w:12vw;  --tcb_w:30vw;
+  --tca1_r :calc(20/42 * 4.0/4.0);  --tca_1_mbr :calc(20/42 * 4.0/4.0/2);
+  --tca2_r :calc(20/42 * 2.5/4.0);  --tca_2_mbr :calc(20/42 * 2.5/4.0/2);
+  --tcb_r  :calc(30/85 * 7.4/4.0);  --tcb_mbr   :calc(30/85 * 7.4/4.0/2);
+}
+/* ---------------------------------------- */ 
+}
+
+/* ------------------ */ 
+/* ---------------------------------------- */ 
+/* =============================================================*/
+
+
+
+
+/*----------------------------------  for development !!!*/
+.bdr1 {border: 3px solid grey;}  
+.bdr2 {border: 3px solid blue;}  
+.bdr3 {border: 3px solid orange;}  
+.bdr4 {border: 3px solid #000;}  
+.bdr5 {border: 3px solid #f00;}  
+.bdr6 {border: 3px solid #ccc;}  
+
+.bdr1 {border: 0px solid grey;}  
+.bdr2 {border: 0px solid blue;}  
+.bdr3 {border: 0px solid orange;}  
+.bdr4 {border: 0px solid #000;}  
+.bdr5 {border: 0px solid #f00;}  
+.bdr6 {border: 0px solid #ccc;}  
+
+
+
+.bdr_rad4  {border-radius: 4px;}  
+.bdr_rad6  {border-radius: 6px;}  
+.bdr_rad8  {border-radius: 8px;}  
+.bdr_rad10 {border-radius: 10px;}  
+.bdr_rad14 {border-radius: 14px;}  
+.bdr_rad18 {border-radius: 18px;}  
+.bdr_rad24 {border-radius: 24px;}  
+.bdr_rad30 {border-radius: 30px;}  
+
+.wh1__ {width:412px; height:578px; }
+.wh2__ {width:404px; height:570px; }
+
+.wh1 {width:384px; height:536px; }
+.wh2 {width:378px; height:530px; }
+
+.wh3 {width:412px; height:578px; }
+.wh4 {width:412px; height:578px; }
+.wh5 {width:412px; height:578px; }
+.wh6 {width:412px; height:578px; }
+
+.wid_100 {width:100%;  height: auto;}
+
+
+/*----------------------------------  for development !!!*/
+
+
+/*----------------------------------  use !!!*/
+.mar_em_0_6 {margin: 0.6em; }
+.mar_em_0_3 {margin: 0.3em; }
+
+.mar_0 {margin: 0; }
+.mar_1 {margin: 0.5vw;}
+.mar_2 {margin: 1vw;}
+.mar_3 {margin: 2vw;}
+.mar_4 {margin: 4vw;}
+.mar_5 {margin: 6vw;}
+
+.pad_0  {padding: 0px;}
+.pad_4  {padding: 4px;}
+.pad_8  {padding: 8px;}
+.pad_12 {padding: 12px;}
+.pad_16 {padding: 16px;}
+.pad_20 {padding: 20px;}
+
+
+
+/* ---------------------------------------- */ 
+/* ---------------------------------------- */ 
+/* ------  Not Respond          ----------- */ 
+/* ---------------------------------------- */ 
+/* ---------------------------------------- */ 
+
+body {
+  /*padding : 2em 7em 22em 7em ;*/
+  /*overflow-y: scroll;*/
+  /*overflow-y: auto;*/
+  /*overflow-y: hidden;*/
+  padding-top     :5.3em;
+  /*padding-right  : 9px;*/
+  /*padding-left   : 9px;*/
+  /*padding-bottom : 2em;*/
+}
+
+
+
+
+.fixed_top {
+  position: fixed;   	z-index: 10;
+
+  top: 0; left: 0; right: 0; margin-bottom: 5px;
+	/*display: flex;*/
+  /*width=100vw; height=5em;*/
+  /*width=calc(100vw - (100vw - 100%)); height=5em;*/
+  width=100%; height=5em;
+  /*border: 3px solid #73AD21;*/
+  padding:0.3em 0.3em 0.5em 0.3em ;
+  background: #ccc;
+  outline: 5px solid #fff;
+  
+  text-align: center;
+}	
+
+
+.s_title {
+  font-size: 1.2em;
+  margin: 0px 0px 5px 0px;
+  text-align: center;
+}
+
+
+.tc_ps_h4 {
+  font-size: 1.2em;
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+
+/*--------------------------------------------*/
+.m_btn {
+  font-size: 12px;
+}
+
+.all_items {
+  width:30em;
+  padding-left:20px;
+  /* border: 3px solid grey; */
+} 
+  
+.all_items p {margin:0; }
+
+.all_items p:hover { cursor: pointer; background-color: #eee; }​
+/*--------------------------------------------*/
+/*.tbl {width: 90%; } */
+
+.tbl {border-collapse: collapse; } 
+.tbl {border-collapse: separate; } 
+
+.tbl td.tbl_num {text-align:center; width:44px;}
+
+.tbl td {border-bottom: 1px solid #bbb; }
+
+.tbl td, .tbl th {border-left: 1px solid #ddd; }
+.tbl td:first-child, .tbl th:first-child {border-left: 0; }
+
+.tbl tr:first-child th:first-child {border-top-left-radius: 10px; }
+.tbl tr:first-child th:last-child {border-top-right-radius: 10px; }
+.tbl tr:last-child td:first-child {border-bottom-left-radius: 10px; }
+.tbl tr:last-child td:last-child {border-bottom-right-radius: 10px; }
+
+.tbl tr:nth-child(even){background-color: #eee;}
+.tbl tr:hover {background-color: #ddd;}
+
+/*.tbl th {padding-top: 12px; padding-bottom: 12px; }*/
+.tbl th {background-color: #666; color: white; text-align: center; }
+.tbl td, .tbl th {padding: 6px 15px; }
+
+/*--------------------------------------------*/
+.menu_anchor_1 { text-align:left }
+.menu_anchor_1 p a {
+    text-decoration: none;
+    color: #000;
+    padding:5pt 30px;
+    border-radius:20px;
+}
+
+.menu_anchor_1 p a:hover {cursor:pointer; background-color: #FFCC00; }
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+/*--------------------------------------------*/

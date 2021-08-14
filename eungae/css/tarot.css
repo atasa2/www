@@ -1,0 +1,120 @@
+
+/*---------------------------------- text !!!*/
+
+/*---------------------------------- text !!!*/
+
+/*---------------------------------- sizes !!!*/
+
+/* tarot card group a    font size responsive  variation 1   */
+/*.tca1_fzr   {font-size:14px; margin:0 0 8px 0;}
+.tca2_fzr   {font-size:10px; margin:0 0 8px 0;}
+.tcb_fzr     {font-size:26px; margin:0 0 8px 0;}
+*/
+
+/* =========================================================== */
+/*---------------------------------- box !!!*/
+
+.box_containers {
+	/*position: relative; */
+	display:inline-block; 
+	
+	margin: 0; 	padding:0px;
+	
+	text-align: center;
+	text-align: left;
+}
+
+
+.box_container {
+	display:inline-block; 
+	position: relative; 
+	text-align: center;
+	/* ------------------ */ 
+	margin: 0; 	padding:0px;
+	/*position: absolute;*/
+	/*top: 50%; transform: translateY(-50%);*/
+}
+
+
+.box_list {
+	display:inline-block; 
+	position: relative; 
+	
+	/*text-align: center;*/
+	/* ------------------ */ 
+	margin: 0; 	padding:0px;
+	/*position: absolute;*/
+	/*top: 50%; transform: translateY(-50%);*/
+	/* ------------------ */ 
+}
+
+.box_items {
+	display:inline-block; 
+	position: relative; 
+	
+	text-align: center;
+	/* ------------------ */ 
+	margin: 0; 	padding:0px;
+	/*position: absolute;*/
+	/*top: 50%; transform: translateY(-50%);*/
+	/* ------------------ */ 
+}
+
+
+.box_item {
+	display:inline-block; 
+	position: relative; 
+	
+	border:1px solid orange; 
+	
+	box-shadow: 2px 2px 6px #444;
+}
+
+
+.box_item_empty {
+	display:inline-block; 
+	position: relative; 
+	
+	margin:5px;
+}
+
+
+.tc_img{
+	position: relative; 
+	/*display: inline-block; */
+	max-width: 100%; max-height: 100%;
+	min-height: 100%;
+	width: auto;
+}
+
+
+
+.tc_title {
+	/*display: inline-block;*/
+  position: absolute;                /* <=============-(2)*/
+	margin: 0; 
+	width:100%;                        /* <=============-(3)*/
+	text-align: center;                /* <=============-(3)*/
+  
+  color:white;
+	/*z-index: 1;*/
+  /*color:Red;*/
+  /*border: 3px solid green; background-color:grey;*/
+}
+
+
+/* =========================================================== */
+
+
+
+.bg_img_wood {
+	/*background-size: cover;*/
+	/*background-image: url("http://localhost/tarot/fig/bg_wood_001.jpg") ;*/
+	/*background-image: url("../fig/bg_wood_001.jpg") ;*/
+	/*background-image: url("../fig/bg_wood_007-5.jpg") ;*/
+	background-image: url("../fig/bg_wood_022-2.jpg") ;
+	background-size: 100% 100%;
+}
+
+/*---------------------------------- XXXXXXXXXXXXX !!!*/
+
